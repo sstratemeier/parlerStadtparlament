@@ -1,0 +1,11 @@
+{
+  "name": "stadtparlaments-dashboard",
+  "version": "1.0.0",
+  "description": "Open Data Hack Challenge No. 5:  Welche Themen beschäftigen das Stadtparlament St.Gallen wie stark?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
