@@ -1,7 +1,7 @@
 <!-- src/Chart.svelte -->
 <script>
-  import { onMount } from 'svelte';
-  import { Chart } from 'chart.js/auto'
+  import { onDestroy, onMount } from 'svelte';
+  // import { Chart } from 'chart.js/auto'
 
   let chart; // Chart.js instance
 
@@ -11,7 +11,7 @@
     datasets: [
       {
         label: 'Sample Data',
-        data: [65, 59, 80, 81, 56],
+        data: [65, 59, 67, 81, 56],
         borderColor: 'rgba(75, 192, 192, 1)',
         borderWidth: 2,
       },
@@ -25,11 +25,16 @@
 
   onMount(() => {
     // Create a new Chart.js instance when the component mounts
-    const ctx = document.getElementById('myChart').getContext('2d');
-    console.log(ctx);
-    console.log('blub');
-    chart = new Chart(ctx, config);
+    // const ctx = document.getElementById('myChart').getContext('2d');
+    // console.log(ctx);
+    // console.log('blub');
+    // chart = new Chart(ctx, config);
   });
+  onDestroy(() => {
+//     if(chart && chart.ctx) {
+//       chart.ctx
+// ;    };
+  })
 </script>
 
 <style>
@@ -41,5 +46,5 @@
 </style>
 
 <div class="chart-container">
-  <canvas width="600px" height="400px" id="myChart"></canvas>
+  <canvas width="600px" height="" id="myChart"></canvas>
 </div>
