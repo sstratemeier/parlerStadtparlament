@@ -29,7 +29,7 @@ jobs:
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
-        push: tr${{ secrets.AzureAppService_ContainerUsername_2d39ea5f84234268ace6638f1f0684bc }}ue
+        push: true
         tags: stadtparlamentsdashboardregistry.azurecr.io/stadtparlaments-dashboard:${{ github.sha }}
         file: ./Dockerfile
 
