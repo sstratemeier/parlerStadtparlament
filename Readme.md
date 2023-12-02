@@ -1,0 +1,1 @@
+docker push stadtparlamentsdashboardregistry.azurecr.io/test/stadparlaments-dashboard
