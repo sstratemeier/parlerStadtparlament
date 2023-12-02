@@ -29,8 +29,8 @@ jobs:
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
-        push: true
-        tags: stadtparlamentsdashboardregistry.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_2d39ea5f84234268ace6638f1f0684bc }}/stadtparlaments-dashboard:${{ github.sha }}
+        push: tr${{ secrets.AzureAppService_ContainerUsername_2d39ea5f84234268ace6638f1f0684bc }}ue
+        tags: stadtparlamentsdashboardregistry.azurecr.io/stadtparlaments-dashboard:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -48,4 +48,4 @@ jobs:
         app-name: 'stadparlaments-dashboard'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_0fe3dff1d8354a2ebfaaf7f3490bc070 }}
-        images: 'stadtparlamentsdashboardregistry.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_2d39ea5f84234268ace6638f1f0684bc }}/stadtparlaments-dashboard:${{ github.sha }}'
+        images: 'stadtparlamentsdashboardregistry.azurecr.io/stadtparlaments-dashboard:${{ github.sha }}'
