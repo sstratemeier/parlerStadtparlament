@@ -12,9 +12,30 @@
 </svelte:head>
 
 <section>
-	<Counter />
 	<Chart />
 
+	<div class="p-4 w-80 text-white">
+		<div class="mb-4 flex justify-between">
+			<div class="">Thema:</div>
+			<div class="p-2 rounded-md bg-neutral-800">Asyl Politik</div>
+		</div>
+		<div class="mb-4 flex justify-between">
+			<span class="">Partei:</span>
+			<span class="p-2 rounded-md bg-blue-700">JUSO</span>
+		</div>
+		<div class="mb-4 flex justify-between">
+			<span class="">Politisches Spektrum:</span>
+			<span class="p-2 rounded-md bg-green-700">65% Links</span>
+		</div>
+		<div class="mb-4 flex justify-between">
+			<span class="">Platzhalter</span>
+			<span class="p-2 rounded-md bg-neutral-800">Positiv</span>
+		</div>
+		<div class="mb-4 flex justify-between">
+			<span class="">Platzhalter</span>
+			<span class="p-2 rounded-md bg-neutral-800">So und so</span>
+		</div>
+	</div>
 </section>
 
 <style>
