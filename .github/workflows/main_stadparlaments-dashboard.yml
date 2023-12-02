@@ -1,0 +1,51 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy container app to Azure Web App - stadparlaments-dashboard
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: 'ubuntu-latest'
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+
+    - name: Log in to registry
+      uses: docker/login-action@v2
+      with:
+        registry: https://stadtparlamentsdashboardregistry.azurecr.io/
+        username: ${{ secrets.AzureAppService_ContainerUsername_2d39ea5f84234268ace6638f1f0684bc }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_3d382eb4ac0246dc8f0ee02f794801bd }}
+
+    - name: Build and push container image to registry
+      uses: docker/build-push-action@v3
+      with:
+        push: true
+        tags: stadtparlamentsdashboardregistry.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_2d39ea5f84234268ace6638f1f0684bc }}/stadtparlaments-dashboard:${{ github.sha }}
+        file: ./Dockerfile
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: 'production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+    - name: Deploy to Azure Web App
+      id: deploy-to-webapp
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'stadparlaments-dashboard'
+        slot-name: 'production'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0fe3dff1d8354a2ebfaaf7f3490bc070 }}
+        images: 'stadtparlamentsdashboardregistry.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_2d39ea5f84234268ace6638f1f0684bc }}/stadtparlaments-dashboard:${{ github.sha }}'
