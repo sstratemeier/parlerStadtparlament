@@ -1,4 +1,4 @@
-<nav class="bg-gray-800 p-3 rounded-3xl shadow-md my-4 w-11/12 self-center">
+<nav class="bg-gray-800 p-3 rounded-3xl shadow-md mb-4 mt-12 w-11/12 self-center">
 	<div class="flex items-center justify-between">
 		<!-- Logo placeholder on the left -->
 		<a
