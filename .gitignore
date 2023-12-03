@@ -78,3 +78,4 @@ package
 .output
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+/analyse/spatial_analysis/data/*.csv
