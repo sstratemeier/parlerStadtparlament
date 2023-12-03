@@ -2,6 +2,12 @@
 
 ## Open Data Hack St.Gallen 2023
 
+### README Verzeichnis
+- [/analyse](analyse/README.md)
+- [/completion](completion/README.md)
+- [/webapp](completion/README.md)
+
+
 ### Ausgangslage
 Auf der Open-Data-Plattform der Stadt St.Gallen liegt ein Datensatz mit den Geschäften aus dem St.Galler Stadtparlament. Darin aufgeführt sind etwa der Titel des einzelnen Vorstosses, welche Poltiker:in ihn eingereicht hat, und welche Partei dadurch dahinterstand.
 
