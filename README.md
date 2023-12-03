@@ -1,41 +1,27 @@
-# Open Data Hackathon Challenge
+# Open Data Hackathon Challenge parlerment
 
-## Einleitung:
+## Open Data Hack St.Gallen 2023
 
-Im Rahmen des Open Data Hackathons steht die Stadt St.Gallen vor der Herausforderung, durch die Analyse der parlamentarischen Geschäfte einen tiefen Einblick in die Entwicklung und Konjunktur von Themen im Stadtparlament zu gewinnen. Diese Erkenntnisse sollen nicht nur die Datenanalysten, sondern vor allem die Bürgerinnen und Bürger der Stadt erreichen. Die Zusammenarbeit mit dem "St.Galler Tagblatt" und der Datenjournalistin Marlen Hämmerli unterstreicht das Bestreben, die gewonnenen Erkenntnisse in Form von aussagekräftigen Zeitungsartikeln der breiten Öffentlichkeit zugänglich zu machen.
+### README Verzeichnis
+- [/analyse/README.md](analyse/README.md)
+- [/completion/README.md](completion/README.md)
+- [/webapp/README.md](completion/README.md)
 
-## Ausgangslage:
 
-Die politische Landschaft entwickelt sich ständig weiter, und das St.Galler Stadtparlament spielt eine zentrale Rolle bei der Diskussion und Entscheidung über verschiedene Themen. Um den Bürgern einen transparenten Einblick in die Aktivitäten und Interessen des Parlaments zu bieten, ist es entscheidend, die historische Entwicklung und den Fokus auf bestimmte Themen im Laufe der Zeit zu verstehen. Die Aufgabe besteht darin, durch Analyse von vorhandenen Daten und Einsatz von Machine Learning-Methoden verlässliche Informationen zu generieren. Dies ermöglicht nicht nur eine zeitliche Einordnung von Themen, sondern auch die Identifizierung von Schwerpunkten und Veränderungen in der politischen Agenda. Marlen Hämmerli, die selbst an der Challenge teilnimmt, strebt an, die gewonnenen Erkenntnisse durch Artikel im "St.Galler Tagblatt" zu verbreiten. Damit wird die Bedeutung von Open Data und Datenjournalismus bei der Schaffung von Transparenz und Verständnis in der Gemeinschaft hervorgehoben.
+### Ausgangslage
+Auf der Open-Data-Plattform der Stadt St.Gallen liegt ein Datensatz mit den Geschäften aus dem St.Galler Stadtparlament. Darin aufgeführt sind etwa der Titel des einzelnen Vorstosses, welche Poltiker:in ihn eingereicht hat, und welche Partei dadurch dahinterstand.
 
-## Problemstellung:
+Über den Datensatz sind zu jedem Geschäft die dazugehörigen Dokumente downloadbar. Bei Vorstössen etwa der jeweilige Vorstoss und die Antwort des Stadtrates darauf. Die Dokumente liegen als PDFs in einem Zip-Ordner vor.
 
-Das Stadtparlament St.Gallen behandelt eine Vielzahl von Themen, und die Aufgabe besteht darin, einen Überblick über die zeitliche Entwicklung dieser Themen seit dem Jahr 2000 zu erstellen. Zusätzlich sollen Einblicke in die Themenkonjunktur nach Partei/Fraktion gewonnen werden. Die Herausforderung liegt darin, verlässliche Aussagen über folgende Punkte zu treffen:
+An einem früheren Hackathon haben Studierende der Fachhochschule OST einen Code geschrieben, der den Volltext jedes Dokuments ausliest und dem jeweiligen Geschäft hinzufügt. Es wurde ausserdem versucht, jedem Geschäft ein Thema zuzuordnen, was aber nicht verlässlich gelang.
 
-- Wie oft hat sich das Stadtparlament mit einem bestimmten Thema beschäftigt?
-- Welche Themen waren in einem bestimmten Jahr oder Zeitraum besonders wichtig?
-- Wie hat sich die Themenkonjunktur über die Jahre/Jahrzehnte entwickelt?
-- Welche Parteien/Fraktionen haben sich welchen Themen gewidmet, und wie hat sich das im Laufe der Zeit verändert?
-- Gibt es spezifische Interessen, wie zum Beispiel schulische Themen bei der SP oder Finanzthemen bei der FDP?
-- Gibt es Themen, die im Stadtparlament kaum je diskutiert werden?
-- Hat sich die Behandlung von klimapolitischen Themen seit Fukushima im Vergleich zu früher verändert?
+Um das volle Potenzial des Datensatzes ausreizen zu können, ist das jedoch nötig. Gerade vor Wahlen könnte der Datensatz so Einsichten liefern, für welche Themen sich welche Parteien wie stark einsetzen.
 
-## Ziele & Erwartungen:
+Aus diese Grund wurde diese Aufgabe als [Challenge](https://www.opendatahacksg.ch/_files/ugd/adb50b_7bfd538275324429bdd7495a38ad06f9.pdf) am Open Data Hack St.Gallen eingereicht.
 
-Während des Hackathons sollen Visualisierungen und Erkenntnisse über die Themenentwicklung im St.Galler Stadtparlament erstellt und interpretiert werden. Die Analyseansätze und Codebasis sollen weiterentwickelt werden oder es soll ein neuer Ansatz gefunden werden. Bei aufschlussreichen und verlässlichen Erkenntnissen plant Marlen Hämmerli vom "St.Galler Tagblatt", Zeitungsartikel zu den Ergebnissen zu verfassen. Mit der Codebasis plant sie auch, zukünftig Geschäfte zu analysieren, beispielsweise nach Ablauf einer Legislatur.
+### Datenquellen
+[Datensatz Parlamentsgeschäfte](https://daten.sg.ch/explore/dataset/traktandierte-geschaefte-sitzungen-stadtparlament-stgallen%40stadt-stgallen/table/?disjunctive.legislatur&disjunctive.geschaeftstyp&disjunctive.gliederung&disjunctive.gliederungsnummer&disjunctive.ebene1&disjunctive.ebene2&disjunctive.ebene3&disjunctive.ebene4&disjunctive.ebene5&disjunctive.ebene6&disjunctive.traktandenstatus&sort=nr&refine.legislatur=01.01.2021+-+31.12.2024)
 
-Als zweiter Schritt ist die Entwicklung eines interaktiven Dashboards oder einer Analyseplattform denkbar. Diese Plattform soll in die städtische Website eingebettet werden und es Laien ermöglichen, Analysen vorzunehmen.
-
-## Ziele & Erwartungen:
-- Marlen
-- Raquel
-- Beat
-- Orhan
-- Till
-- Tobi
-- Simon
-
-## Ressourcen:
 
 - Ein Datensatz auf der Open-Data-Plattform der Stadt St.Gallen: "Traktandierte Geschäfte in Sitzungen des Stadtparlaments St.Gallen (RIS – Ratsinformationssystem)". Der Datensatz enthält auch Links zu den Sitzungsprotokollen des Stadtparlaments.
 
@@ -43,24 +29,52 @@ Als zweiter Schritt ist die Entwicklung eines interaktiven Dashboards oder einer
 
 - Code von Studierenden (bei Beat Tödtli beziehbar). Der Code ermittelt eine Vorhersage des Themas aufgrund der Titel der Geschäfte und den Kategorien aus dem Aktenplan. Das Machine Learning Modell muss jedoch weiterentwickelt werden, um die Verlässlichkeit bedeutend zu erhöhen.
 
-## Funktionen der Plattform
 
-Die entwickelte Plattform bietet eine Vielzahl von Funktionen, um die Anforderungen der Hackathon-Challenge zu erfüllen und den Zugang zu den Daten des Stadtparlaments St.Gallen zu erleichtern.
+### Ziel
+Für jedes einzelne Geschäft sollen dem Datensatz dessen wichtigsten Themen hinzugefügt werden. So sollen Auswertungen möglich werden wie zum Beispiel:
 
-## Visualisierungen und Dashboards
+* Wie oft hat sich das Stadtparlament mit dem Thema X beschäftigt?
+* Welche Themen waren im Jahr Y, im Zeitraum Z besonders wichtig?
+* Wie hat sich die Themenkonjunktur über die Jahre/Jahrzehnte entwickelt?
+* Welche Parteien/Fraktionen widmeten sich welchen Themen? Und wie hat sich das verändert?
+* Interessiert sich die SP vor allem für schulische Themen und die FDP vor allem für
+Finanzthemen?
+* Worüber wird im Stadtparlament kaum je diskutiert?
+* Sind klimapolitische Themen seit Fukushima stärker auf der Agenda als davor?
 
-Die Plattform integriert Grafiken, Diagramme und Dashboards, die durch Power BI erstellt wurden. Diese Visualisierungen bieten einen intuitiven Überblick über die zeitliche Entwicklung und die Schwerpunkte der behandlungsbedürftigen Themen im St.Galler Stadtparlament seit dem Jahr 2000. Die Integration von Power BI ermöglicht zudem die einfache Einbettung und Aktualisierung von Dashboards über das Power BI REST API.
+Der Code, um solche Auswertungen möglich zu machen, soll in einer Form vorliegen, dass er weiterentwickelt werden kann. Marlen Hämmerli, Datenjournalistin beim "St.Galler Tagblatt" und Challengeownerin möchte mit dem Code weiterarbeiten und ihn auch weiter entwickeln.
 
-## Onelake Data Hub
+In einem zweiten Schritt stand es dem Team offen, ein Tool/Dashboard zu bauen. Dadurch sollte es der breiten Öffentlichkeit - und damit der Wählerschaft - möglich werden, eigene Analysen vorzunehmen.
 
-Die Plattform nutzt den Onelake Data Hub, um Daten effizient zu speichern und abzurufen. Dies ermöglicht eine nahtlose Integration von neuen Informationen durch den Power Query Editor UI. Damit haben die Teilnehmer und Entwickler die Flexibilität, die Datenbank mühelos zu aktualisieren und auf aktuelle Entwicklungen im Stadtparlament zu reagieren.
 
-## KI Chatbot
+### Vorgehen
 
-Die Plattform enthält einen KI-gesteuerten Chatbot, der mithilfe des ChatGPT API integriert wurde. Dieser Chatbot ermöglicht den Nutzern, auf natürliche Weise mit der Plattform zu interagieren. Benutzer können dem Chatbot Fragen zu spezifischen Themen, Parteien oder Entwicklungen stellen und erhalten sofortige, automatisierte Antworten. Der KI-Chatbot verbessert die Benutzerfreundlichkeit und ermöglicht einen schnellen Zugriff auf relevante Informationen.
+1. Llama wurden Themen vorgegeben und die KI angewiesen, jedem Geschäft das passende zuzuordnen. So wurde der Datensatz mit Hilfe bekannter Tools (pandas) erweitert.
+2. Die Volltexte wurden nach Quartiernamen durchsucht, um so festzustellen, welche Geschäfte welchem Quartier zugeordnet werden können. (Oder nicht.) Auf diese Art wurde der Datensatz erweitert.
+3. Mit ChatGPT-4 wurden ebenfalls Themen abgefragt, aber auch Prompts mitgegeben wie z.B. "Wie links oder rechts ist Vorstoss X?"
+4. ChatGPT wurde mit den Datensätzen trainiert mit dem Ziel, die KI in einem Dashboard einzubetten.
+5. Mit Power BI wurden Visualisierungen erstellt.
+6. Ein Dashboard wurde erstellt, in das die genannten Ergebnisse einflossen.
 
-## Programmiersprachen
 
-Die Plattform bietet mehrsprachige Unterstützung, um sicherzustellen, dass eine breite Palette von Nutzern Zugang zu den Informationen hat. Durch die Implementierung von Javascript, HTML, CSS, Svelt für das Frontend und Python, R für das Backend wird eine vielseitige Plattform geschaffen, die auf unterschiedlichen technologischen Hintergründen basiert.
 
-Die Kombination dieser Funktionen macht die Plattform zu einem leistungsfähigen Werkzeug, um verlässliche Erkenntnisse über die Themen im St.Galler Stadtparlament zu gewinnen und diese Informationen auf eine zugängliche Weise der Bevölkerung zu präsentieren.
+## Limitationen
+Bei der Auswertung wurde nur auf die Vorstösse konzentriert. Jedem Vorstoss sind jedoch zwei Dokumente beigelegt. Neben jenem vom Parlament, auch jenes vom Stadtrat. Diese konnten nicht aus dem Datensatz gefiltert werden, flossen also in die Auswertung ein.
+
+
+## Prozess Architektur
+![Prozess Architektur Diagram](process_architecture.jpg "Prozess Architektur")
+
+
+## Mögliche Weiterentwicklungen
+Die Integration von ChatGPT.
+
+## Team
+- Marlen (marlen.haemmerli@tagblatt.ch)
+- Raquel (raquel.kehl@ost.ch)
+- Beat (beat.toedtli@ost.ch)
+- Orhan (orhan.saeedi@bs.ch)
+- Till
+- Tobias (tobidex@gmx.de)
+- Simon
+
