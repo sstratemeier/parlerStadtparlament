@@ -1,36 +1,36 @@
-<nav class="bg-gray-800 p-3 rounded-lg shadow-md mx-auto my-4 max-w-6xl">
+<nav class="bg-gray-800 p-3 rounded-3xl shadow-md my-4 w-11/12 self-center">
 	<div class="flex items-center justify-between">
 		<!-- Logo placeholder on the left -->
 		<a
-			href="/"
-			class="text-white font-bold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 no-underline"
+			href="/dashboard"
+			class="text-white font-bold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 			role="button"
 		>
-			LOGO
+			parlerStadtparlament
 		</a>
 
 		<!-- Buttons on the right -->
 		<div class="flex space-x-2">
 			<a
-				href="#"
-				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 no-underline"
+				href="/"
+				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 				role="button"
 			>
-				Button 1
+				Sitzungen
 			</a>
 			<a
-				href="#"
-				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 no-underline"
+				href="/themen"
+				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 				role="button"
 			>
-				Button 2
+				Themen
 			</a>
 			<a
-				href="#"
-				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 no-underline"
+				href="/parteien"
+				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 				role="button"
 			>
-				Button 3
+				Parteien
 			</a>
 			<!-- Add more buttons as needed -->
 		</div>
