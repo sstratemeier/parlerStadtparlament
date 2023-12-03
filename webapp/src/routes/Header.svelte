@@ -7,7 +7,7 @@
 			role="button"
 			style="font-family: Hedvig Letters serif;"
 		>
-			parlerStadtparlament
+			<img class="h-8" src="parlerment-logo.png" alt="">
 		</a>
 
 		<!-- Buttons on the right -->
