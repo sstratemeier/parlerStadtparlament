@@ -1,0 +1,1 @@
+in diesem Ordner werden die output files abgelegt, wie z.B. eine Excel Tabelle mit den klassifizierten Dokumenten
