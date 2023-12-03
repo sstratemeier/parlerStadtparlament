@@ -62,9 +62,11 @@ In einem zweiten Schritt stand es dem Team offen, ein Tool/Dashboard zu bauen. D
 Bei der Auswertung wurde nur auf die Vorstösse konzentriert. Jedem Vorstoss sind jedoch zwei Dokumente beigelegt. Neben jenem vom Parlament, auch jenes vom Stadtrat. Diese konnten nicht aus dem Datensatz gefiltert werden, flossen also in die Auswertung ein.
 
 
+## Prozess Architektur
+![Prozess Architektur Diagram](process_architecture.jpg "Prozess Architektur")
 
 
-## Mögliche Weiterentwicklungen
+## Mögliche Weiterentwicklungen
 Die Integration von ChatGPT.
 
 ## Team
