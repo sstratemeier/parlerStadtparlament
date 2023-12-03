@@ -5,6 +5,7 @@
 			href="/dashboard"
 			class="text-white font-bold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 			role="button"
+			style="font-family: Hedvig Letters serif;"
 		>
 			parlerStadtparlament
 		</a>

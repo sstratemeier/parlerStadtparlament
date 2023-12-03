@@ -17,6 +17,15 @@
 	color: var(--color-text);
 }
 
+@font-face {
+	font-family: 'Hedvig Letters Serif', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: local(''), 
+        /* Modern Browsers */ url('/fonts/HedvigLettersSerif-Regular-VariableFont_opsz.ttf') format('truetype'),
+}
+
 body {
 	min-height: 100vh;
 	margin: 0;
