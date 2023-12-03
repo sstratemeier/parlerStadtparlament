@@ -1,6 +1,7 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import Icon from '@iconify/svelte';
 </script>
 
 <div class="app">
@@ -11,6 +12,9 @@
 	</main>
 
 	<footer>
+		<a id="chatbotButton" href="https://chat.openai.com/g/g-ItEJvya2h-parlerstadtparlament" class="fixed bottom-12 right-12  flex align-middle gap-x-2 items-center  text-white rounded-full shadow-lg p-4 bg-white/10  text-sm font-semibold  hover:bg-white/20">
+			Chat <Icon class="w-8 h-8 rounded-full"  icon="material-symbols:chat" />
+		</a>
 	</footer>
 </div>
 
