@@ -11,10 +11,10 @@ An einem früheren Hackathon haben Studierende der Fachhochschule OST einen Code
 
 Um das volle Potenzial des Datensatzes ausreizen zu können, ist das jedoch nötig. Gerade vor Wahlen könnte der Datensatz so Einsichten liefern, für welche Themen sich welche Parteien wie stark einsetzen.
 
-Aus diese Grund wurde diese Aufgabe als [Challenge][https://www.opendatahacksg.ch/_files/ugd/adb50b_7bfd538275324429bdd7495a38ad06f9.pdf] am Open Data Hack St.Gallen eingereicht.
+Aus diese Grund wurde diese Aufgabe als [Challenge](https://www.opendatahacksg.ch/_files/ugd/adb50b_7bfd538275324429bdd7495a38ad06f9.pdf) am Open Data Hack St.Gallen eingereicht.
 
 ### Datenquellen
-[Datensatz Parlamentsgeschäfte][https://daten.sg.ch/explore/dataset/traktandierte-geschaefte-sitzungen-stadtparlament-stgallen%40stadt-stgallen/table/?disjunctive.legislatur&disjunctive.geschaeftstyp&disjunctive.gliederung&disjunctive.gliederungsnummer&disjunctive.ebene1&disjunctive.ebene2&disjunctive.ebene3&disjunctive.ebene4&disjunctive.ebene5&disjunctive.ebene6&disjunctive.traktandenstatus&sort=nr&refine.legislatur=01.01.2021+-+31.12.2024]
+[Datensatz Parlamentsgeschäfte](https://daten.sg.ch/explore/dataset/traktandierte-geschaefte-sitzungen-stadtparlament-stgallen%40stadt-stgallen/table/?disjunctive.legislatur&disjunctive.geschaeftstyp&disjunctive.gliederung&disjunctive.gliederungsnummer&disjunctive.ebene1&disjunctive.ebene2&disjunctive.ebene3&disjunctive.ebene4&disjunctive.ebene5&disjunctive.ebene6&disjunctive.traktandenstatus&sort=nr&refine.legislatur=01.01.2021+-+31.12.2024)
 
 
 - Ein Datensatz auf der Open-Data-Plattform der Stadt St.Gallen: "Traktandierte Geschäfte in Sitzungen des Stadtparlaments St.Gallen (RIS – Ratsinformationssystem)". Der Datensatz enthält auch Links zu den Sitzungsprotokollen des Stadtparlaments.
@@ -22,9 +22,6 @@ Aus diese Grund wurde diese Aufgabe als [Challenge][https://www.opendatahacksg.c
 - Eine Kaggle-Competition (kaggle.com/competitions/male-stgallen-recommender) mit einer detaillierten Problembeschreibung.
 
 - Code von Studierenden (bei Beat Tödtli beziehbar). Der Code ermittelt eine Vorhersage des Themas aufgrund der Titel der Geschäfte und den Kategorien aus dem Aktenplan. Das Machine Learning Modell muss jedoch weiterentwickelt werden, um die Verlässlichkeit bedeutend zu erhöhen.
-
-
-[]
 
 
 ### Ziel
@@ -64,11 +61,11 @@ Bei der Auswertung wurde nur auf die Vorstösse konzentriert. Jedem Vorstoss sin
 ## Mögliche Weiterentwicklungen
 Die Integration von ChatGPT.
 
-## Ziele & Erwartungen:
+## Team
 - Marlen (marlen.haemmerli@tagblatt.ch)
 - Raquel (raquel.kehl@ost.ch)
 - Beat (beat.toedtli@ost.ch)
-- Orhan
+- Orhan (orhan.saeedi@bs.ch)
 - Till
 - Tobi
 - Simon
