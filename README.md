@@ -73,6 +73,6 @@ Die Integration von ChatGPT.
 - Beat (beat.toedtli@ost.ch)
 - Orhan (orhan.saeedi@bs.ch)
 - Till
-- Tobi
+- Tobias (tobidex@gmx.de)
 - Simon
 
