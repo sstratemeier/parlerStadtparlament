@@ -1,17 +1,22 @@
+
 <script>
-	import Counter from './Counter.svelte';
-	import Chart from './Chart.svelte';
+import tradants from '../../tradants';
+import { page } from '$app/stores';
 
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+let tradant = {
+    name: "",
+}; 
 
-	import tradants from './tradants';
+console.log($page.params.slug);
+tradant = tradants[$page.params.slug] || {};
+
 </script>
 
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
+
 
 <section>
 	<div class="flex space-x-16">
@@ -44,8 +49,7 @@
 				<div class="article-info-title">Stadtparlaments Sitzung</div>
 			</div>
 			<div class="article-header text-xl font-bold mb-4">
-				Untersuchung der Haftbedingungen und Überstellungspraktiken im Ausschaffungsgefängnis
-				Bazenheid
+				{ tradant.name }
 			</div>
 			<div class="article-abstract italic mb-4">
 				In einer detaillierten Anfrage an das Stadtparlament St. Gallen hinterfragt Andrea Scheck,

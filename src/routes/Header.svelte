@@ -12,21 +12,21 @@
 		<!-- Buttons on the right -->
 		<div class="flex space-x-2">
 			<a
-				href="/link1"
+				href="#"
 				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 no-underline"
 				role="button"
 			>
 				Button 1
 			</a>
 			<a
-				href="/link2"
+				href="#"
 				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 no-underline"
 				role="button"
 			>
 				Button 2
 			</a>
 			<a
-				href="/link3"
+				href="#"
 				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 no-underline"
 				role="button"
 			>
