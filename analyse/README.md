@@ -2,10 +2,10 @@
 Code für die Analyse der Parlamentsdokumente. Ziel hier war, Einsichten in den Datensatz zu erhalten.
 Die Arbeit gliedert sich in 4 Teilaspekte:
 
-	- OST-preprocessing: Das Herunterladen der Parlamentsdokumente und die Extraktion der Texte
-	- llama_zusammenfassung: Mit Hilfe einer lokalen LLama2-Installation wurden Zusammenfassungen und Verschlagwortungen erstellt.
-	- notebooks: Enthält Notebooks zur Analyse der Textdokumente
-	- Daten Enthält Excel-Dateien, welche die auf der [Opendata-Plattform der Stadt St.Gallen](https://daten.stadt.sg.ch/explore/dataset/traktandierte-geschaefte-sitzungen-stadtparlament-stgallen/table/?disjunctive.legislatur&disjunctive.geschaeftstyp&disjunctive.gliederung&disjunctive.gliederungsnummer&disjunctive.ebene1&disjunctive.ebene2&disjunctive.ebene3&disjunctive.ebene4&disjunctive.ebene5&disjunctive.ebene6&disjunctive.traktandenstatus&sort=nr) bereitgestellten Daten erweitern, insbesondere um die Extrahierten Texte und zusätzliche semantische Informationen.
+- OST-preprocessing: Das Herunterladen der Parlamentsdokumente und die Extraktion der Texte
+- llama_zusammenfassung: Mit Hilfe einer lokalen LLama2-Installation wurden Zusammenfassungen und Verschlagwortungen erstellt.
+- notebooks: Enthält Notebooks zur Analyse der Textdokumente
+- Daten Enthält Excel-Dateien, welche die auf der [Opendata-Plattform der Stadt St.Gallen](https://daten.stadt.sg.ch/explore/dataset/traktandierte-geschaefte-sitzungen-stadtparlament-stgallen/table/?disjunctive.legislatur&disjunctive.geschaeftstyp&disjunctive.gliederung&disjunctive.gliederungsnummer&disjunctive.ebene1&disjunctive.ebene2&disjunctive.ebene3&disjunctive.ebene4&disjunctive.ebene5&disjunctive.ebene6&disjunctive.traktandenstatus&sort=nr) bereitgestellten Daten erweitern, insbesondere um die Extrahierten Texte und zusätzliche semantische Informationen.
 
 
 ### Vorgehen
