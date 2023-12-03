@@ -1,18 +1,18 @@
-<nav class="bg-gray-800 p-3 rounded-lg shadow-md my-4 w-11/12 self-center">
+<nav class="bg-gray-800 p-3 rounded-3xl shadow-md my-4 w-11/12 self-center">
 	<div class="flex items-center justify-between">
 		<!-- Logo placeholder on the left -->
 		<a
-			href="/"
+			href="/dashboard"
 			class="text-white font-bold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 			role="button"
 		>
-			Polit Raum
+			parlerStadtparlament
 		</a>
 
 		<!-- Buttons on the right -->
 		<div class="flex space-x-2">
 			<a
-				href="/sitzungen"
+				href="/"
 				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 				role="button"
 			>
