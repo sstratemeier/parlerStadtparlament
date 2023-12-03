@@ -1,4 +1,4 @@
-# Dashboard
+# Webapp
 Welche Themen beschäftigen das Stadtparlament St.Gallen wie stark?
 
 ## Installation

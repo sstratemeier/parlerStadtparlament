@@ -13,7 +13,7 @@
 		<!-- Buttons on the right -->
 		<div class="flex space-x-2">
 			<a
-				href="/"
+				href="/sitzungen"
 				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 				role="button"
 			>
@@ -24,7 +24,7 @@
 				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 				role="button"
 			>
-				Themen
+				Thema
 			</a>
 			<a
 				href="/parteien"

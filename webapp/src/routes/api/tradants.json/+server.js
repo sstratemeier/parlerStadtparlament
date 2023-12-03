@@ -24,7 +24,7 @@ export async function GET(request) {
       },
     });
   }
-
+@
   // Return the array of JSON objects
   return new Response({
     status: 200,
