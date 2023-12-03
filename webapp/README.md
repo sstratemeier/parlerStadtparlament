@@ -18,7 +18,7 @@ npm run dev
 
 ## Deploying to production
 
-A online version of this repo is available under [https://stadparlaments-dashboard.azurewebsites.net](https://stadparlaments-dashboard.azurewebsites.net/).
+A online version of this repo is available under [https://parler-stadtparlament.azurewebsites.net/](https://stadparlaments-dashboard.azurewebsites.net/).
 
 To update this online version you can either push to the main branch.
 
