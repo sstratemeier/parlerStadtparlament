@@ -6,6 +6,8 @@
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 
 	import tradants from './tradants';
+
+	import Icon from '@iconify/svelte';
 </script>
 
 <svelte:head>
@@ -52,7 +54,7 @@
 				Stadtparlamentarierin der JUSO, die Haftbedingungen im Ausschaffungsgefängnis Bazenheid und
 				die Praxis der Überstellung abgewiesener Asylsuchender aus St. Gallen in diese Einrichtung.
 			</div>
-			<div class="article-text mb-8">
+			<div class="article-text mb-16">
 				Der Text beinhaltet eine Anfrage an das Stadtparlament St. Gallen bezüglich der
 				Haftbedingungen im Ausschaffungsgefängnis Bazenheid und der Überstellung abgewiesener
 				Asylsuchender dorthin. Die Anfrage thematisiert die Einhaltung von Mindeststandards,
@@ -61,19 +63,21 @@
 				werden, sieht jedoch keine unmittelbaren Alternativen, bis die geplante Erweiterung des
 				Regionalgefängnisses Altstätten realisiert ist.
 			</div>
-			<div class="article-navigation-bar flex justify-between text-white text-s mb-4">
-				<div class="previous-session p-4 rounded-md bg-neutral-600">
+			<div class="article-navigation-bar flex justify-between text-white text-right text-s mb-4 ">
+				<div class="previous-session p-4 rounded-md bg-neutral-600 flex gap-x-3 items-center">
+					<Icon class="w-8 h-8" icon="material-symbols:arrow-left-alt" />
 					<div>
 						<div>Sitzung davor</div>
 						<div class="text-gray-400 font-bold">22.12.2023</div>
 					</div>
 				</div>
 
-				<div class="next-session p-4 rounded-md bg-neutral-600 text-right">
+				<div class="next-session p-4 rounded-md bg-neutral-600 text-left flex gap-x-3 items-center">
 					<div>
 						<div>Sitzung danach</div>
 						<div class="text-gray-400 font-bold">23.12.2023</div>
 					</div>
+					<Icon class="w-8 h-8" icon="material-symbols:arrow-right-alt" />
 				</div>
 			</div>
 		</div>
