@@ -3,9 +3,9 @@
 ## Open Data Hack St.Gallen 2023
 
 ### README Verzeichnis
-- [/analyse](analyse/README.md)
-- [/completion](completion/README.md)
-- [/webapp](completion/README.md)
+- [/analyse/README.md](analyse/README.md)
+- [/completion/README.md](completion/README.md)
+- [/webapp/README.md](completion/README.md)
 
 
 ### Ausgangslage
