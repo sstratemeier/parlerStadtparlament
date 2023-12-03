@@ -45,7 +45,7 @@
 							</h3>
 							<div class="mt-2">
 								<p class="text-sm text-gray-300">
-									Die SP ist seit den letzten 23 Jahren am stärksten Vertreten im Stadtparlament. Wenn du weitere Gründe dafür siehst schicke uns deine Meinung auf info@parlement.ch
+									Die SP ist seit den letzten 23 Jahren am stärksten im Stadtparlament vertreten. Wenn du weitere Gründe dafür siehst schicke uns deine Meinung auf <a href="mailto:info@parlement.ch">info@parlement.ch</a>
 								</p>
 							</div>
 						</div>

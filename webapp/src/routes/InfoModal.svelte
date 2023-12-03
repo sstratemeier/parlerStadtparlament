@@ -45,7 +45,7 @@
 							</h3>
 							<div class="mt-2">
 								<p class="text-sm text-gray-300">
-									Genau diese Fragen wollen wir stellen, durch die Analyse der Daten. Nach der Antwort suchen wir selbst noch. Wenn du Gründe dafür siehst, schicke uns deine Meinung auf info@parlement.ch
+									Genau diese Fragen wollen wir durch die Analyse der Daten stellen. Nach der Antwort suchen wir selbst noch. Wenn du Gründe dafür siehst, dann schicke uns deine Meinung auf <a href="mailto:info@parlement.ch">info@parlement.ch</a>
 								</p>
 							</div>
 						</div>
