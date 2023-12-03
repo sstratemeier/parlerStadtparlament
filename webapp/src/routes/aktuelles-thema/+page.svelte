@@ -16,66 +16,43 @@
 <section>
 	<div class="flex space-x-16">
 		<div class="infocard p-4 w-80 text-white">
-			<div class="mb-4 flex justify-between">
+			<div class="mb-4 flex justify-between items-center">
 				<div class="">Thema:</div>
-				<div class="p-2 rounded-md bg-neutral-800">Asyl Politik</div>
+				<div class="p-2 rounded-md bg-neutral-800">Finanzverwaltung</div>
 			</div>
-			<div class="mb-4 flex justify-between">
+			<div class="mb-4 flex justify-between items-center">
 				<span class="">Partei:</span>
 				<span class="p-2 rounded-md bg-blue-700">JUSO</span>
 			</div>
-			<div class="mb-4 flex justify-between">
-				<span class="">Politisches Spektrum:</span>
-				<span class="p-2 rounded-md bg-green-700">65% Links</span>
+			<div class="mb-4 flex justify-between items-center">
+				<span class="">Politisches Einordnung:</span>
+				<span class="p-2 rounded-md bg-green-700">40% Rechts</span>
 			</div>
-			<div class="mb-4 flex justify-between">
-				<span class="">Platzhalter</span>
-				<span class="p-2 rounded-md bg-neutral-800">Positiv</span>
+			<div class="mb-4 flex justify-between items-center">
+				<span class="">Finanzieller Effekt</span>
+				<span class="p-2 rounded-md bg-neutral-800">Einsparung</span>
 			</div>
-			<div class="mb-4 flex justify-between">
-				<span class="">Platzhalter</span>
-				<span class="p-2 rounded-md bg-neutral-800">So und so</span>
+			<div class="mb-4 flex justify-between items-center">
+				<span class="">Zeithorizont</span>
+				<span class="p-2 rounded-md bg-neutral-800">Langfristig</span>
 			</div>
 		</div>
 
-		<div class="article-wrapper text-yellow-100 max-w-xl">
+		<div class="article-wrapper text-zinc-100 max-w-xl">
 			<div class="article-info-bar flex text-s mb-4">
 				<div class="article-date mr-8">Samstag, 23.12.2023</div>
 				<div class="article-info-title">Stadtparlaments Sitzung</div>
 			</div>
 			<div class="article-header text-xl font-bold mb-4">
-				Untersuchung der Haftbedingungen und Überstellungspraktiken im Ausschaffungsgefängnis
-				Bazenheid
+				Analyse der Staatsbeiträge und Finanzkontrolle in St. Gallen
 			</div>
 			<div class="article-abstract italic mb-4">
-				In einer detaillierten Anfrage an das Stadtparlament St. Gallen hinterfragt Andrea Scheck,
-				Stadtparlamentarierin der JUSO, die Haftbedingungen im Ausschaffungsgefängnis Bazenheid und
-				die Praxis der Überstellung abgewiesener Asylsuchender aus St. Gallen in diese Einrichtung.
+				In dieser Analyse wird die Anfrage von René Neuweiler bezüglich der Verwendung von „à fonds perdu“-Staatsbeiträgen in St. Gallen und die darauf folgende Antwort des Stadtrats untersucht.
 			</div>
 			<div class="article-text mb-8">
-				Der Text beinhaltet eine Anfrage an das Stadtparlament St. Gallen bezüglich der
-				Haftbedingungen im Ausschaffungsgefängnis Bazenheid und der Überstellung abgewiesener
-				Asylsuchender dorthin. Die Anfrage thematisiert die Einhaltung von Mindeststandards,
-				mangelnde Alternativen zu diesen Gefängnissen und die Prüfung der Rechtmäßigkeit und
-				Angemessenheit der Haft. Der Stadtrat erkennt an, dass nur Mindestanforderungen erfüllt
-				werden, sieht jedoch keine unmittelbaren Alternativen, bis die geplante Erweiterung des
-				Regionalgefängnisses Altstätten realisiert ist.
+				René Neuweiler, Stadtparlamentarier, stellte eine Anfrage über die Praxis der „à fonds perdu“-Staatsbeiträge in St. Gallen. Der Stadtrat erklärte, dass solche Beiträge, die nicht rückzahlbar sind, selten gewährt werden. Die meisten Beiträge sind für spezifische Zwecke und mit Auflagen verbunden, wie z.B. Investitionen in Alters- und Pflegeheime oder Sportinfrastruktur. Größere Beiträge sind an Leistungsvereinbarungen geknüpft, wie die Unterstützung großer Kultureinrichtungen. Einige kleine Beiträge fallen unter „à fonds perdu“, werden jedoch aufgrund geringer Beträge ohne weiteres Controlling ausgezahlt. Der Stadtrat betont, dass ein umfassendes Controlling unpraktikabel und aufgrund der Effizienz nicht umsetzbar wäre.
 			</div>
-			<div class="article-navigation-bar flex justify-between text-white text-s mb-4">
-				<div class="previous-session p-4 rounded-md bg-neutral-600">
-					<div>
-						<div>Sitzung davor</div>
-						<div class="text-gray-400 font-bold">22.12.2023</div>
-					</div>
-				</div>
-
-				<div class="next-session p-4 rounded-md bg-neutral-600 text-right">
-					<div>
-						<div>Sitzung danach</div>
-						<div class="text-gray-400 font-bold">23.12.2023</div>
-					</div>
-				</div>
-			</div>
+			
 		</div>
 	</div>
 </section>

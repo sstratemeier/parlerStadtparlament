@@ -15,7 +15,7 @@
 		<!-- Main Content Area -->
 		<div class="md:col-span-8 flex flex-col">
 			<!-- Neueste Sitzung Section -->
-			<a class="text-zinc-100 hover:text-blue-200 hover:no-underline" href="/">
+			<a class="text-zinc-100 hover:text-blue-200 hover:no-underline" href="/aktuelles-thema">
 			<div class="bg-neutral-600 p-6 px-8 rounded-3xl mb-4 flex-grow overflow-auto">
 				<!-- Content goes here -->
 				<h2 class="font-bold text-zinc-100 underline text-2xl mb-2">Neueste Sitzung</h2>
@@ -127,7 +127,7 @@
 						>
 						<span class="text-sm font-bold text-green-500 mx-2">+8%</span>
 						<button class="text-white bg-gray-600 hover:bg-gray-500 rounded py-1 truncate px-4"
-							>Asyl Politik</button
+							>Sport</button
 						>
 					</div>
 					<div class="flex justify-between items-center">
@@ -138,7 +138,7 @@
 						>
 						<span class="text-sm font-bold text-green-500 mx-2">+4%</span>
 						<button class="text-white bg-gray-600 hover:bg-gray-500 rounded py-1 truncate px-4"
-							>Asyl Politik</button
+							>Verkehr</button
 						>
 					</div>
 					<div class="flex justify-between items-center">
@@ -149,7 +149,7 @@
 						>
 						<span class="text-sm font-bold text-red-500 mx-2">-8%</span>
 						<button class="text-white bg-gray-600 hover:bg-gray-500 rounded py-1 truncate px-4"
-							>Asyl Politik</button
+							>Corona</button
 						>
 					</div>
 					<div class="flex justify-between items-center">
