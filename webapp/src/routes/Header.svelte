@@ -1,19 +1,19 @@
-<nav class="bg-gray-800 p-3 rounded-3xl shadow-md my-4 w-11/12 self-center">
+<nav class="bg-gray-800 p-3 rounded-3xl shadow-md mb-4 mt-12 w-11/12 self-center">
 	<div class="flex items-center justify-between">
 		<!-- Logo placeholder on the left -->
 		<a
-			href="/dashboard"
+			href="/"
 			class="text-white font-bold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 			role="button"
 			style="font-family: Hedvig Letters serif;"
 		>
-			parlerStadtparlament
+			<img class="h-8" src="parlerment-logo.png" alt="">
 		</a>
 
 		<!-- Buttons on the right -->
 		<div class="flex space-x-2">
 			<a
-				href="/"
+				href="/sitzungen"
 				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 				role="button"
 			>
@@ -24,7 +24,7 @@
 				class="text-white font-semibold py-2 px-4 rounded hover:bg-gray-700 transition-colors duration-150 hover:no-underline"
 				role="button"
 			>
-				Themen
+				Thema
 			</a>
 			<a
 				href="/parteien"
